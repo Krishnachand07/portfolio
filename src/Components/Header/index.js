@@ -1,51 +1,60 @@
-import React, { useState, useEffect } from 'react';
+import React, { Component } from 'react';
 import './index.css';
 import { Row, Col } from 'reactstrap';
-const Header = () => {
-	const [ content ] = useState([ 'Web developer', 'Designer', 'Photo editor', 'Architecture' ]);
-	const [ init, setInit ] = useState('');
+class Header extends Component {
+	constructor(props) {
+		super(props);
 
-	useEffect(() => {
-		setInterval(() => {
-			renderContent();
+		this.state = {
+			init: '',
+			content: [ 'Web developer', 'Designer', 'Photo editor', 'Architecture' ]
+		};
+		setTimeout(() => {
+			this.renderContent();
 		}, 1000);
-	}, []);
+	}
 
-	const renderContent = () => {
-		setInit(content[Math.floor(Math.random() * content.length)]);
+	renderContent = () => {
+		this.setState({
+			init: this.state.content[Math.floor(Math.random() * this.state.content.length)]
+		});
+		setTimeout(() => {
+			this.renderContent();
+		}, 500);
 	};
-
-	return (
-		<div className="header">
-			<div className="container pt-5">
-				<Row>
-					<Col xl={12}>
-						<h3 className="display-4 text-light">ambience</h3>
-						<h2 className="display-3 text-light">Krishnachand Kannan</h2>
-						<p className="ui-para text-light">Beginner as a {init}</p>
-						<button
-							className="btn-secondry"
-							onClick={() => {
-								window.scroll({
-									top: '500',
-									behavior: 'smooth'
-								});
-							}}
-						>
-							Get started
-						</button>
-						<a
-							href="https://docs.google.com/document/d/1Otcr_Tuq4hXuO388meGyDuXFG9M7EhYT1piC9RcbUf0/edit?usp=sharing"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<button className="btn-secondry">See Resume</button>
-						</a>
-					</Col>
-				</Row>
+	render() {
+		return (
+			<div className="header">
+				<div className="container pt-5">
+					<Row>
+						<Col xl={12}>
+							<h3 className="display-4 text-light">ambience</h3>
+							<h2 className="display-3 text-light">Krishnachand Kannan</h2>
+							<p className="ui-para text-light">Beginner as a {this.state.init}</p>
+							<button
+								className="btn-secondry"
+								onClick={() => {
+									window.scroll({
+										top: '500',
+										behavior: 'smooth'
+									});
+								}}
+							>
+								Get started
+							</button>
+							<a
+								href="https://docs.google.com/document/d/1Otcr_Tuq4hXuO388meGyDuXFG9M7EhYT1piC9RcbUf0/edit?usp=sharing"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<button className="btn-secondry">See Resume</button>
+							</a>
+						</Col>
+					</Row>
+				</div>
 			</div>
-		</div>
-	);
-};
+		);
+	}
+}
 
 export default Header;
