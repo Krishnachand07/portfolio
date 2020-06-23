@@ -6,7 +6,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { Row, Col } from 'reactstrap';
 import { FaBaby, FaGraduationCap, FaBriefcase, FaCode, FaBook } from 'react-icons/fa';
 const Timeline = () => {
-	const [ timeline, setTimeline ] = useState([
+	const [ timeline ] = useState([
 		{
 			icon: <FaBaby className="text-muted" />,
 			date: '07 January 1999',

@@ -7,7 +7,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const About = () => {
-	const [ known, setKnown ] = useState([
+	const [ known ] = useState([
 		{ title: 'Ae', percentage: '35' },
 		{ title: 'Bootstrap', percentage: '30' },
 		{ title: 'Lightroom', percentage: '25' },

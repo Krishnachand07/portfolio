@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { Row, Col } from 'reactstrap';
 
 const Footer = () => {
-	const [ follow, setFollow ] = useState([
+	const [ follow ] = useState([
 		{
 			icon: <FaInstagram />,
 			link: 'https://www.instagram.com/_kris___k_n__a/'

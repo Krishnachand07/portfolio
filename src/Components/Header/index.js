@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import { Row, Col } from 'reactstrap';
 const Header = () => {
-	const [ content, setContent ] = useState([ 'Web developer', 'Designer', 'Photo editor', 'Architecture' ]);
+	const [ content ] = useState([ 'Web developer', 'Designer', 'Photo editor', 'Architecture' ]);
 	const [ init, setInit ] = useState('');
 
 	useEffect(() => {
