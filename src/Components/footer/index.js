@@ -21,7 +21,7 @@ const Footer = () => {
 	const renderLink = () => {
 		return follow.map((data, i) => {
 			return (
-				<a href={data.link} key={i} target="_blank">
+				<a href={data.link} key={i} rel="noopener noreferrer" target="_blank">
 					<span className="text-muted">{data.icon}</span>
 				</a>
 			);
