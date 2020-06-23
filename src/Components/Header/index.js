@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
-import Typing from 'react-typing-animation';
 import { Row, Col } from 'reactstrap';
 const Header = () => {
 	const [ content, setContent ] = useState([ 'Web developer', 'Designer', 'Photo editor', 'Architecture' ]);
