@@ -6,10 +6,10 @@ const Header = () => {
 	const [ init, setInit ] = useState('');
 
 	useEffect(() => {
-		setInterval(() => {
+		setTimeout(() => {
 			renderContent();
 		}, 1000);
-	}, []);
+	});
 
 	const renderContent = () => {
 		setInit(content[Math.floor(Math.random() * content.length)]);
