@@ -6,7 +6,7 @@ const Header = () => {
 	const [ init, setInit ] = useState('');
 
 	useEffect(() => {
-		setTimeout(() => {
+		setInterval(() => {
 			renderContent();
 		}, 1000);
 	});
