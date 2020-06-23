@@ -1,0 +1,7 @@
+.timeline {
+	min-height: 100vh;
+}
+
+.timeline .vertical-timeline::before {
+	width: 2px;
+}

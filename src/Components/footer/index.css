@@ -1,0 +1,25 @@
+.footer {
+	min-height: 50vh;
+	background-color: rgba(34, 34, 34, 0.72);
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.footer .text-light {
+	font-size: 2.4rem !important;
+	font-family: 'Raleway' !important;
+}
+
+.footer h3 a {
+	color: #747474;
+	padding: 15px 2rem;
+}
+
+.footer h3 a svg {
+	transition: 100ms;
+}
+
+.footer h3 a svg:hover {
+	color: #fff;
+	transform: translateY(3px);
+}

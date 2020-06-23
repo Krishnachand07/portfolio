@@ -1,0 +1,36 @@
+.about {
+	min-height: 100vh;
+}
+
+.about .image img {
+	width: 70%;
+	filter: grayscale(1);
+	transition: 500ms;
+}
+.about .image img:hover {
+	filter: grayscale(0);
+}
+.about .known {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.about .quote p {
+	font-size: 2rem;
+	font-weight: 300;
+	color: #fff;
+}
+.about .known .block {
+	text-align: center;
+}
+
+.about .known .block .text {
+	font-size: 1.3rem;
+	color: #fff;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.about .known .block .circular .CircularProgressbar {
+	width: 130px;
+}

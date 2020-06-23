@@ -1,0 +1,16 @@
+.work {
+	min-height: 70vh;
+}
+.work .img-block {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.work .img-block img {
+	width: 50%;
+	filter: grayscale(100);
+	transition: 500ms;
+}
+
+.work .img-block img:hover {
+	filter: grayscale(0);
+}
