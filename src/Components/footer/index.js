@@ -28,7 +28,7 @@ const Footer = () => {
 		});
 	};
 	return (
-		<div className="footer mb-4">
+		<div className="footer pb-4">
 			<div className="container">
 				<h3 className="text-light">Follow me</h3>
 				<Row className="mt-4">
