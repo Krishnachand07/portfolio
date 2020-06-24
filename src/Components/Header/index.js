@@ -43,7 +43,7 @@ class Header extends Component {
 								Get started
 							</button>
 							<a
-								href="https://docs.google.com/document/d/1Otcr_Tuq4hXuO388meGyDuXFG9M7EhYT1piC9RcbUf0/edit?usp=sharing"
+								href="https://drive.google.com/file/d/1TNOdjZkY2CpNWZP3i_uH87WVqrwAZzEA/view"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
