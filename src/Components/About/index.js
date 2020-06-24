@@ -70,7 +70,7 @@ const About = () => {
 									<p className="lead mb-4">
 										Favi Cricket, basically I'm Lefthand batsmen<br /> Mostly like Non-veg Biriyani,
 										Enfield,<span className="text-light"> Peace place,</span> Violet family<br />{' '}
-										But interested on Black<br />
+										But interested in Black<br />
 									</p>
 									<p className="lead">
 										Become a Architect IT Engineer<br />{' '}

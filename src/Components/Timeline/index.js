@@ -21,7 +21,7 @@ const Timeline = () => {
 			position: 'left',
 			title: 'My School Life',
 			subTitle: 'Successfully completed School education with 60%',
-			para: 'Completed at Sri sadhana Matriculation Higher Secondary School at Madurai.'
+			para: 'At Sri sadhana Matriculation Higher Secondary School in Madurai.'
 		},
 		{
 			icon: <FaCode className="text-muted" />,
