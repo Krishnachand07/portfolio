@@ -29,6 +29,11 @@ h3 {
 	font-family: 'Raleway', sans-serif;
 }
 
+h2 {
+	font-family: 'Montez';
+	letter-spacing: 3px;
+}
+
 /* mobile small */
 
 @media (max-width: 320px) {
