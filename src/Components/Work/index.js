@@ -22,7 +22,7 @@ const Work = () => {
 					</Col>
 					<Col md={12} lg={4} className="text-center">
 						<img src={hr} loading="eager" alt="HR" />
-						<p className="text-muted">Pruvity HR Solutions Pvt Ltd at Madurai.</p>
+						<p className="text-muted">HRBluSky</p>
 					</Col>
 				</Row>
 			</div>

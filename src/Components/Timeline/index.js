@@ -19,7 +19,7 @@ const Timeline = () => {
 			icon: <FaBook className="text-muted" />,
 			date: '2015 - 2016',
 			position: 'left',
-			title: 'My School Life',
+			title: 'School Life',
 			subTitle: 'Successfully completed School education with 60%',
 			para: 'At Sri sadhana Matriculation Higher Secondary School in Madurai.'
 		},
@@ -33,10 +33,19 @@ const Timeline = () => {
 				'<span class="text-success">3 Weeks</span> duration for the training period at <span class="text-info">Jaishu Consulting Pvt Ltd.'
 		},
 		{
+			icon: <FaCode className="text-muted" />,
+			date: 'Sep - Nov 2018',
+			position: 'left',
+			title: 'Internship',
+			subTitle: 'Position - UI/UX Designer',
+			para:
+				'<span class="text-warning">2 Months</span> of learning UI/UX designing mobile interface at <span class="text-primary">Virtualgodown Technologies Pvt Ltd.'
+		},
+		{
 			icon: <FaGraduationCap className="text-muted" />,
 			date: '2016 - 2020',
-			position: 'left',
-			title: 'My College Life',
+			position: 'right',
+			title: 'College Life',
 			subTitle: 'Waiting for the good result...',
 			para:
 				'Unfortunately our batch students Stuck with <span class="text-warning">COVID19</span>, till now final semester was not conducted due to #LockDown'
@@ -44,9 +53,9 @@ const Timeline = () => {
 		{
 			icon: <FaBriefcase className="text-muted" />,
 			date: '2020 - present',
-			position: 'right',
+			position: 'left',
 			title: 'career',
-			subTitle: 'Pruvity HR Solutions Pvt Ltd.',
+			subTitle: 'HRBluSky',
 			para: 'position as a Software Developer at Anna Nagar in Madurai.'
 		}
 	]);
