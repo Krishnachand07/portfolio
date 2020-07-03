@@ -1,0 +1,7 @@
+.slide-show {
+	min-height: 50vh;
+}
+.slide-show img {
+	width: 100%;
+	text-align: center;
+}
