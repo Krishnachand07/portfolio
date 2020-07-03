@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, CarouselItem, CarouselIndicators, CarouselControl } from 'reactstrap';
+import { Carousel, CarouselItem, CarouselIndicators } from 'reactstrap';
 import { useState } from 'react';
 import image1 from '../../img/chand-3.jpeg';
 import image2 from '../../img/Krish4.jpg';
@@ -66,8 +66,6 @@ const SlideShow = () => {
 			<Carousel activeIndex={activeIndex} next={next} previous={previous}>
 				<CarouselIndicators items={slides} activeIndex={activeIndex} onClickHandler={goToIndex} />
 				{slide()}
-				<CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-				<CarouselControl direction="next" directionText="Next" onClickHandler={next} />
 			</Carousel>
 		</div>
 	);
