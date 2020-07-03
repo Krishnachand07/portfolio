@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, CarouselItem } from 'reactstrap';
+import { Carousel, CarouselItem, CarouselIndicators, CarouselControl } from 'reactstrap';
 import { useState } from 'react';
 import image1 from '../../img/chand-3.jpeg';
 import image2 from '../../img/Krish4.jpg';
@@ -44,6 +44,11 @@ const SlideShow = () => {
 		const nextIndex = activeIndex === 0 ? slides.length - 1 : activeIndex - 1;
 		setActiveIndex(nextIndex);
 	};
+	const goToIndex = (newIndex) => {
+		if (animating) return;
+		setActiveIndex(newIndex);
+	};
+
 	const slide = () => {
 		return slides.map((data, i) => {
 			return (
@@ -59,7 +64,10 @@ const SlideShow = () => {
 				<h3 className="text-light">Gallery</h3>
 			</div>
 			<Carousel activeIndex={activeIndex} next={next} previous={previous}>
+				<CarouselIndicators items={slides} activeIndex={activeIndex} onClickHandler={goToIndex} />
 				{slide()}
+				<CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+				<CarouselControl direction="next" directionText="Next" onClickHandler={next} />
 			</Carousel>
 		</div>
 	);
