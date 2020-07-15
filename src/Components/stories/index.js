@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Stories from 'react-insta-stories';
 import chand from '../../img/SKG01470.jpg';
 import chand1 from '../../img/Group4.png';
+import certf from '../../img/certf.png';
 import ReactTimeAgo from 'react-time-ago';
-import boys from '../../story-video/boys.mp4';
 import './index.css';
 const Story = () => {
 	const [ content ] = useState([
@@ -32,14 +32,12 @@ const Story = () => {
 			}
 		},
 		{
-			url: boys,
+			url: certf,
 			header: {
 				heading: 'Me',
 				subheading: <ReactTimeAgo date="July 15 2020, 08:00 pm" locale="en" />,
 				profileImage: chand1
-			},
-			type: 'video',
-			duration: 30000
+			}
 		}
 	]);
 	return (
