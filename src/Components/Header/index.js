@@ -35,12 +35,12 @@ class Header extends Component {
 								className="btn-secondry"
 								onClick={() => {
 									window.scroll({
-										top: '500',
+										top: '750',
 										behavior: 'smooth'
 									});
 								}}
 							>
-								Get started
+								Stories
 							</button>
 							<a
 								href="https://drive.google.com/file/d/1TNOdjZkY2CpNWZP3i_uH87WVqrwAZzEA/view?usp=sharing"

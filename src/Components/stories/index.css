@@ -1,0 +1,11 @@
+.story {
+	height: 100vh;
+}
+.content {
+	position: relative;
+}
+.content-body {
+	position: absolute;
+	top: 38%;
+	left: 27%;
+}
