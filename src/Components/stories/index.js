@@ -15,7 +15,7 @@ const Story = () => {
 			},
 			content: () => (
 				<div className="bg-primary content w-100">
-					<div class="text-center content-body text-light">
+					<div className="text-center content-body text-light">
 						<h1>Introducing Stories in My Profile</h1>
 						<p className="lead mt-3">Quick reels about me</p>
 						<p className="lead">...</p>

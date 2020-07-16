@@ -25,12 +25,12 @@
 }
 
 .about .known .block .text {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	color: #fff;
 	padding-bottom: 1rem;
 	text-align: center;
 }
 
 .about .known .block .circular .CircularProgressbar {
-	width: 130px;
+	width: 100px;
 }

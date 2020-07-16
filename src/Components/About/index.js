@@ -18,7 +18,7 @@ const About = () => {
 	const renderKnown = () => {
 		return _.map(known, (data, i) => {
 			return (
-				<Col className="block" lg={5} md={4} sm={3} xl={2} key={i}>
+				<Col className="block mt-3" xs={5} lg={2} md={4} key={i}>
 					<div className="text">{data.title}</div>
 					<div className="circular">
 						<CircularProgressbar
@@ -29,13 +29,13 @@ const About = () => {
 									fill: '#fff'
 								},
 								path: {
-									stroke: '#fff'
+									stroke: '#aaa'
 								},
 								trail: {
 									stroke: 'transparent'
 								}
 							}}
-							text={data.value}
+							text={data.percentage}
 						/>
 					</div>
 				</Col>
@@ -51,11 +51,11 @@ const About = () => {
 				<Row>
 					<Col xs={12} className="mt-4">
 						<Row className="image">
-							<Col md={12} lg={4} className="text-center">
+							<Col md={12} lg={4} className="align-self-center text-center">
 								<img src={chand2} loading="eager" alt="KC-1" />
 							</Col>
 							<Col className="text-light text-center" md={12} lg={8}>
-								<blockquote className="quote">
+								<blockquote className="quote mt-3">
 									<h4 className="text-uppercase mb-0">Attitude is everything!</h4>
 									<footer className="blockquote-footer">
 										<cite>Anonymous</cite>
@@ -74,14 +74,17 @@ const About = () => {
 									</p>
 									<p className="lead">
 										Become a Architect IT Engineer<br />{' '}
-										<span className="text-light"> &lt; Think different &gt;</span>
+										<span className="text-light">
+											{' '}
+											{'<'} Think different {'>'}{' '}
+										</span>
 									</p>
 								</div>
 							</Col>
 						</Row>
 					</Col>
-					<Col lg={12} className="known">
-						<Row>{renderKnown()}</Row>
+					<Col xs={12} className="known">
+						<Row className="d-flex justify-content-center">{renderKnown()}</Row>
 					</Col>
 				</Row>
 			</div>
