@@ -5,7 +5,7 @@ import About from './Components/About';
 import Timeline from './Components/Timeline';
 import Work from './Components/Work';
 import Footer from './Components/footer';
-import SlideShow from './Components/SlideShow';
+// import SlideShow from './Components/SlideShow';
 import Story from './Components/stories';
 const App = () => {
 	return (
@@ -13,7 +13,7 @@ const App = () => {
 			<Header />
 			<Story />
 			<About />
-			<SlideShow />
+			{/* <SlideShow /> */}
 			<Timeline />
 			<Work />
 			<Footer />
