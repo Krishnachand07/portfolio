@@ -44,7 +44,7 @@ const Story = () => {
 		<div className="story">
 			<div>
 				<div className="d-flex justify-content-center">
-					<Stories stories={content} defaultInterval={15000} width="100%" height="100vh" />
+					<Stories loop stories={content} defaultInterval={15000} width="100%" height="100vh" />
 				</div>
 			</div>
 		</div>
