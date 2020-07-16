@@ -1,6 +1,6 @@
 .position-sticky {
-	padding: 30px;
+	padding: 20px;
 	top: 0;
 	background-color: rgba(32, 32, 32, .9);
-	z-index: 10;
+	z-index: 9999;
 }

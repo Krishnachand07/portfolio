@@ -3,8 +3,15 @@
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
+	min-height: 100vh;
 }
-
+.header .logo-btn {
+	border-radius: 100px;
+	width: 70px;
+	padding: 3px;
+	border: 3px solid #fff;
+	cursor: pointer;
+}
 .header .btn-secondry {
 	border: none;
 	border: solid 1px #fff;
@@ -14,7 +21,6 @@
 	border-radius: 50px;
 	transition: .1s ease-in-out;
 	text-decoration: none;
-	margin-bottom: 440px;
 	margin-right: 10px;
 }
 
