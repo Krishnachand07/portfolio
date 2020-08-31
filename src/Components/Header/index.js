@@ -42,7 +42,7 @@ class Header extends Component {
 										top: 700
 									});
 								}}
-								title="stories"
+								title="Get started"
 								className="mr-3 logo-btn"
 							/>
 							<a
