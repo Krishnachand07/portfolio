@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 import { Row, Col } from 'reactstrap';
-import chand2 from '../../img/chand-2.jpg';
+import chand2 from '../../img/Krish-2.jpg';
 import _ from 'lodash';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
@@ -10,7 +10,7 @@ const About = () => {
 	const [ known ] = useState([
 		{ title: 'Ae', percentage: '35' },
 		{ title: 'Bootstrap', percentage: '30' },
-		{ title: 'Lightroom', percentage: '25' },
+		{ title: 'Lightroom', percentage: '50' },
 		{ title: 'Photoshop', percentage: '60' },
 		{ title: 'React', percentage: '15' },
 		{ title: 'XD', percentage: '50' }

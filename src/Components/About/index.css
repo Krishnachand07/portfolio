@@ -6,6 +6,7 @@
 	width: 70%;
 	filter: grayscale(1);
 	transition: 500ms;
+	border-radius: 10px;
 }
 .about .image img:hover {
 	filter: grayscale(0);

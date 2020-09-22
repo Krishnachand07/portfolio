@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
 import { Row, Col } from 'reactstrap';
-import logo from '../../img/Group4.png';
 class Header extends Component {
 	constructor(props) {
 		super(props);
@@ -33,18 +32,17 @@ class Header extends Component {
 							<h3 className="display-4 text-light">ambience</h3>
 							<h2 className="display-3 text-light">Krishnachand Kannan</h2>
 							<p className="ui-para text-light">Beginner as a {this.state.init}</p>
-							<img
-								src={logo}
-								alt="logo"
+							<button
+								className="btn-secondry"
 								onClick={() => {
 									window.scroll({
 										behavior: 'smooth',
-										top: 700
+										top: 660
 									});
 								}}
-								title="Get started"
-								className="mr-3 logo-btn"
-							/>
+							>
+								Read me
+							</button>
 							<a
 								href="https://drive.google.com/file/d/1TNOdjZkY2CpNWZP3i_uH87WVqrwAZzEA/view?usp=sharing"
 								target="_blank"
