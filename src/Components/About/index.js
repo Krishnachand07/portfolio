@@ -12,8 +12,8 @@ const About = () => {
 		{ title: 'Bootstrap', percentage: '30' },
 		{ title: 'Lightroom', percentage: '50' },
 		{ title: 'Photoshop', percentage: '60' },
-		{ title: 'React', percentage: '15' },
-		{ title: 'XD', percentage: '50' }
+		{ title: 'React', percentage: '35' },
+		{ title: 'XD', percentage: '70' }
 	]);
 	const renderKnown = () => {
 		return _.map(known, (data, i) => {
