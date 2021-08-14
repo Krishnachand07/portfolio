@@ -53,7 +53,7 @@ const Timeline = () => {
       date: "2016 - 2020",
       position: "right",
       title: "College Life",
-      subTitle: "Successfully graduated at First class",
+      subTitle: "Successfully graduated in First class",
       para: "K.L.N. College of Engineering, Madurai",
     },
     {
